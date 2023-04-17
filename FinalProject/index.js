@@ -1,7 +1,4 @@
-import * as areaChart from "./areaChart.js";
-import * as polarArea from "./polarArea.js";
 import * as choroplethMap from "./choroplethMap.js";
-import * as anomalyRadial from "./anomalyRadial.js";
 
 const monthNames = [
   "January",
