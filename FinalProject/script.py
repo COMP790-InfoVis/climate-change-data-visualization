@@ -1,18 +1,22 @@
 import csv
 import json
+from urllib.request import urlopen
+from pandas import *
 
 file = open('average_yearly_temperatures_celcius_1901-2021_world.csv', newline='')
-json_file = open('world.geo.json', newline='')
+csv_data = read_csv("average_yearly_temperatures_celcius_1901-2021_world.csv")
+response = urlopen('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
 
-data = json.load(json_file)
+data = json.loads(response.read())
 
 type(file)
 
 csvreader = csv.reader(file)
 
 csv_country_names = []
-csv_country_names = next(csvreader)
-del csv_country_names[0] #deleting the "year" column from our countries array
+csv_country_names = csv_data['country'].tolist()
+#print(csv_country_names)
+#print(csv_country_names) #deleting the "year" column from our countries array
 
 rows = []
 for row in csvreader:
@@ -29,7 +33,9 @@ for j in data['features']:
     for i in range(len(csv_country_names)):
         if(j['properties']['name'])==(csv_country_names[i]):
              matched.append(j['properties']['name'])
-print(matched)
+    if j['properties']['name'] not in matched: 
+        not_matched.append(j['properties']['name'])
+print((not_matched))
 
 
 #for i in data['features']:

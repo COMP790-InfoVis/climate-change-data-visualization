@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "d3-tip": "^0.9.1",
+    "type": "module"
+  },
+  "type": "module"
+}
