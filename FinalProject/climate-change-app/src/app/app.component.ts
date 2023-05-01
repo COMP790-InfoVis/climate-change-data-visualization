@@ -21,9 +21,10 @@ export class AppComponent {
           this.transitionMap(time)
           time++;
        } else {
+          this.titleTag = this.yearRange[120];
           clearInterval(interval);
        }
-    }, 1000);
+    }, 850);
   } 
 
   createMap(width: number, height: number, dataset: Object) {
