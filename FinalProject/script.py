@@ -59,7 +59,7 @@ for j in data['features']:
                     tempYear = "temp" + str(startingYear)
                     j['properties'][tempYear] = i[k]
                     startingYear = startingYear + 1
-
+#exporting editted data into json file
 json_file = json.dumps(data)
 print(json_file)
 
