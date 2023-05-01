@@ -15,7 +15,6 @@ export class AppComponent {
   
   ngOnInit() {
     this.createMap(1000, 600, this.globalData)
-
     let time = 1;
     let interval = setInterval(() => {
        if (time <= 121) {
