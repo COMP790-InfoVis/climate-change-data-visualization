@@ -42,7 +42,7 @@ export class AppComponent {
                  .attr('viewBox', '0 0 1000 600')
 
   const colorDomain = [0, 7.22222, 14.4444, 21.6667, 28.8889, 35]
-  const colorLegend = d3.scaleThreshold().range(['#032f60', '#176dae', '#e3a532', '#dd6e6e', '#cc0000', '#570505']).domain(colorDomain);
+  const colorLegend = d3.scaleThreshold().range(['#0720ad', '#0781ad', '#e3a532', '#dd6e6e', '#cc0000', '#570505']).domain(colorDomain);
 
   svg.append("g")
   .selectAll("path")
@@ -67,7 +67,7 @@ transitionMap(i: number) {
   const svg = d3.select('.world-map');
   
   const colorDomain = [0, 7.22222, 14.4444, 21.6667, 28.8889, 35]
-  const colorLegend = d3.scaleThreshold().range(['#032f60', '#176dae', '#e3a532', '#dd6e6e', '#cc0000', '#570505']).domain(colorDomain);
+  const colorLegend = d3.scaleThreshold().range(['#0720ad', '#0781ad', '#e3a532', '#dd6e6e', '#cc0000', '#570505']).domain(colorDomain);
 
 svg.selectAll('path')
    .data(this.globalData.features)
