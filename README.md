@@ -1,4 +1,3 @@
-**Analysis of Average Annual Temperature per Country**
 <img width="1262" alt="image" src="https://user-images.githubusercontent.com/69488629/236120991-56153bd6-6ef7-48b4-bb0b-fdb7e774e1a5.png">
 We've created a data visualization tool to help you see how the temperatures of all the countries in the world have changed from 1901-2021! This project aims to provide an easy to digest global picture of how our climate has changed in the last century and we hope it can be used to better inform ourselves when crafting future climate change policies. 
 
