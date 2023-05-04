@@ -17,3 +17,7 @@ Wesbite where we got our data from: https://climateknowledgeportal.worldbank.org
 - David Pham
 - Aaron Liang
 - Will Mullen
+
+
+**Our Paper**
+To view our final paper, it is under the document name "COMP 590_ Information Visualization Research Paper.pdf" in this repository
