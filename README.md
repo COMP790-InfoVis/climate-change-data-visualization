@@ -1,7 +1,7 @@
 <img width="1262" alt="image" src="https://user-images.githubusercontent.com/69488629/236120991-56153bd6-6ef7-48b4-bb0b-fdb7e774e1a5.png">
 We've created a data visualization tool to help you see how the temperatures of all the countries in the world have changed from 1901-2021! This project aims to provide an easy to digest global picture of how our climate has changed in the last century and we hope it can be used to better inform ourselves when crafting future climate change policies. 
 
-
+Wesbite where we got our data from: https://climateknowledgeportal.worldbank.org/download-data
 
 **Instructions for running this Project on your local machine**
 1. We're using Node JS to gain access to the package manager NPM, so please make sure you have access to that beforehand. 
@@ -12,8 +12,8 @@ We've created a data visualization tool to help you see how the temperatures of 
 
 
 **Group Members**
-Callie Xu
-George Andrade
-David Pham
-Aaron Liang
-Will Mullen
+- Callie Xu
+- George Andrade
+- David Pham
+- Aaron Liang
+- Will Mullen
