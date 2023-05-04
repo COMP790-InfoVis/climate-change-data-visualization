@@ -13,7 +13,7 @@ Wesbite where we got our data from: https://climateknowledgeportal.worldbank.org
 
 **Group Members**
 - Callie Xu
-- George Andrade
+- George Andrade-Munoz
 - David Pham
 - Aaron Liang
 - Will Mullen
