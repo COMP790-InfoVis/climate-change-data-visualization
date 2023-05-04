@@ -9,3 +9,11 @@ We've created a data visualization tool to help you see how the temperatures of 
 3. Next, run the command "cd climate-change-app" once you've copied the repo onto your code editior
 4. To start the development server, run the command "ng serve"
 5. Open your browser on http://localhost:4200/ to view the website! Enjoy.
+
+
+**Group Members**
+Callie Xu
+George Andrade
+David Pham
+Aaron Liang
+Will Mullen
