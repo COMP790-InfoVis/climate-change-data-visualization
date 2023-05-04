@@ -1,1 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/acJ5Z7Z6)
+Instructions for running this Project on your local machine 
+1. We're using Node JS to gain access to the package manager NPM, so please make sure you have access to that beforehand. 
+2. Make sure you're able to run Angular CLI by running the command "npm install -g @angular/cli" in your terminal. 
+3. Next, run the command "cd climate-change-app" once you've copied the repo onto your code editior
+4. To start the development server, run the command "ng serve"
+5. Open your browser on http://localhost:4200/ to view the website! Enjoy.
