@@ -1,3 +1,7 @@
+Analysis of Average Annual Temperature per Country
+<img width="1324" alt="image" src="https://user-images.githubusercontent.com/69488629/236120289-209258e9-dd23-47f1-8837-8196a4c645e0.png">
+We've created a data visualization tool to help you see how the temperatures of all the countries in the world have changed from 1901-2021! This project aims to provide an easy to digest global picture of how our climate has changed in the last century and we hope it can be used to better inform ourselves when crafting future climate change policies. 
+
 Instructions for running this Project on your local machine 
 1. We're using Node JS to gain access to the package manager NPM, so please make sure you have access to that beforehand. 
 2. Make sure you're able to run Angular CLI by running the command "npm install -g @angular/cli" in your terminal. 
