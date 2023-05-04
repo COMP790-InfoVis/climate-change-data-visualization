@@ -20,4 +20,4 @@ Wesbite where we got our data from: https://climateknowledgeportal.worldbank.org
 
 
 **Our Paper**
-To view our final paper, it is under the document name "COMP 590_ Information Visualization Research Paper.pdf" in this repository
+- To view our final paper, it is under the document name "COMP 590_ Information Visualization Research Paper.pdf" in this repository
